@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6; /* Cute light pink background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars that might appear when button moves */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff66b2; /* Darker pink for text */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#yesBtn {
+    background-color: #ff99cc; /* Medium pink */
+    color: white;
+}
+
+#noBtn {
+    background-color: #cccccc; /* Grey for 'No' button */
+    color: white;
+    position: absolute; /* Allows JavaScript to move this button */
+}
